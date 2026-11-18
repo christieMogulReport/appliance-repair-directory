@@ -1,0 +1,14 @@
+site_name: Appliance Repair Help
+site_tagline: What to check first, what it might cost, and how to find a repair service for washers, dryers, refrigerators, and dishwashers.
+site_description: "Plain-English troubleshooting guides for washers, dryers, refrigerators, and dishwashers: safe checks you can do yourself, typical causes, when to call a pro, and where to find manufacturer and national repair services."
+site_owner: Black Swan Sibyl
+language: en
+
+# Absolute site origin, no trailing slash. Intended domain, NOT yet configured or deployed.
+base_url: "https://appliance.christiejustice.com"
+
+# Empty because the site would be served from the domain root.
+base_path: ""
+
+# No affiliate links are published yet. This disclosure is here so it is already in place if one is added.
+affiliate_disclosure: "Black Swan Sibyl is an independent guide, not a repair company. We do not currently earn money from the links on this site; if that changes, affiliate links will be labeled and we may earn a commission at no extra cost to you."
