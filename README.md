@@ -2,7 +2,7 @@
 
 Static directory site (Python + Markdown) for washer, dryer, refrigerator, and dishwasher repair help. Brand: Black Swan Sibyl (Christie Justice). Timezone: America/Chicago.
 
-**Intended domain:** something like `appliance.christiejustice.com`. This is **unconfigured**: there is no `static/CNAME`, no GitHub repo, and nothing is deployed. `base_url` in `config.yml` is a placeholder until the domain is set up.
+**Live site:** https://appliance.christiejustice.com (GitHub Pages, repo `christieMogulReport/appliance-repair-directory`). `static/CNAME` holds the custom domain and `base_url` in `config.yml` matches it.
 
 ## Commands
 ```bash
@@ -21,7 +21,11 @@ Create `content/pages/<slug>.md` with front matter: `title`, `slug`, `descriptio
 - No invented numbers or listings.
 - Before adding an affiliate link, make sure `affiliate_disclosure` in `config.yml` is accurate.
 
-## Deploy (not done yet)
-`.github/workflows/pages.yml` is included for GitHub Pages, but no repo exists and nothing has been pushed. When a domain is chosen, add `static/CNAME` and update `base_url`.
+## Deploy
+Pushing to `main` runs `.github/workflows/pages.yml`, which installs `requirements.txt`, runs `python build.py`, and deploys `dist/` to GitHub Pages (Pages build source: GitHub Actions). `static/CNAME` is copied into `dist/` and sets the custom domain `appliance.christiejustice.com`.
+
+DNS: christiejustice.com is hosted at WordPress.com nameservers (ns1/ns2/ns3.wordpress.com). A record is required: `CNAME  appliance  ->  christiemogulreport.github.io` (same pattern as `shred`). After it resolves, enable "Enforce HTTPS" in the repo's Pages settings.
+
+Commit identity: `Black Swan Sibyl <noreply@users.noreply.github.com>`.
 
 `data/` and `tools/` are gitignored (private idea backlog and outreach notes).
