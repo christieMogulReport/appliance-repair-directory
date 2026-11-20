@@ -195,6 +195,7 @@ def layout(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="impact-site-verification" value="60272845-c2a1-448a-8ef4-186f30ab5422">
   <title>{escape(full_title)}</title>
   <meta name="description" content="{desc}">
 {canonical}  <link rel="stylesheet" href="{escape(css, quote=True)}">
