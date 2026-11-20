@@ -88,6 +88,16 @@ A clogged vent can make a dryer feel like it isn't heating. Samsung says some ne
 
 Samsung says to reset by unplugging the dryer (or turning off the breaker) for 1 to 5 minutes. But it warns not to reset first: a reset won't fix a clogged vent, and clearing the same error over and over erases the history a technician uses to diagnose the problem ([Samsung](https://www.samsung.com/us/support/answer/ANS10004810/)). On Samsung dryers, heating codes like **HC** or **hE** usually mean a clogged lint screen or vent. On electric models they can also mean low voltage, and Samsung says an electrician should check that ([Samsung](https://www.samsung.com/us/support/troubleshoot/TSG10001006/)).
 
+## Parts and tools that commonly help with this
+
+These are links to Amazon search results, not specific products, so you pick the exact part. **Match any part to your dryer's model number** (on a label inside the door or on the back) and check it against your owner's manual. **Unplug the dryer, and shut off the gas if it is a gas dryer, before any repair.** Buy a part only after the checks above point to it.
+
+- [Dryer vent cleaning kit](https://www.amazon.com/s?k=dryer+vent+cleaning+kit&tag=applianceh06-20): for the vent cleaning in Step 4. A clogged vent is a fire risk, so it is worth doing.
+- [Dryer heating element](https://www.amazon.com/s?k=dryer+heating+element&tag=applianceh06-20): the usual part when an electric dryer tumbles but won't heat. Search with your model number.
+- [Dryer thermal fuse](https://www.amazon.com/s?k=dryer+thermal+fuse&tag=applianceh06-20): a safety part that cuts the heat when the dryer overheats, often because of a blocked vent. Find the cause before you replace it.
+- [Dryer high-limit thermostat](https://www.amazon.com/s?k=dryer+high+limit+thermostat&tag=applianceh06-20): a second thermostat that can stop the heat. Search with your model number.
+- [Basic multimeter](https://www.amazon.com/s?k=digital+multimeter&tag=applianceh06-20): to test the parts above for continuity. Skip it if you are not comfortable working with electricity.
+
 ## When to stop and call a pro
 
 - **You smell gas or burning, or see scorch marks.** Turn it off and don't use it until it's been checked.

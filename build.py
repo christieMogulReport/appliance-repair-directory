@@ -122,9 +122,33 @@ def parse_date(value: Any, source: Path) -> dt.date:
         raise
 
 
+AMAZON_LINK_RE = re.compile(r'<a href="(https?://(?:www\.)?amazon\.com/[^"]*)"')
+
+
 def render_markdown(text: str) -> str:
     MD.reset()
     return MD.convert(text or "")
+
+
+def mark_amazon_links(html: str, config: dict[str, Any]) -> str:
+    """Add rel/target to amazon.com links, and a disclosure line above the first one."""
+    if not AMAZON_LINK_RE.search(html):
+        return html
+    tag = str(config.get("amazon_tag") or "")
+    for m in AMAZON_LINK_RE.finditer(html):
+        if tag and f"tag={tag}" not in m.group(1):
+            sys.stderr.write(f"warning: amazon link without tag={tag}: {m.group(1)}\n")
+    html = AMAZON_LINK_RE.sub(
+        r'<a href="\1" rel="sponsored nofollow noopener" target="_blank"', html
+    )
+    note = config.get("affiliate_disclosure") or ""
+    if note:
+        first = html.index('<a href="https://www.amazon.com') if '<a href="https://www.amazon.com' in html else AMAZON_LINK_RE.search(html).start()
+        # Put the note before the paragraph/list that contains the first affiliate link.
+        starts = [m.start() for m in re.finditer(r"<(?:p|ul|ol)>", html[:first])]
+        at = starts[-1] if starts else 0
+        html = html[:at] + f'<p class="affiliate-note"><em>{escape(note)}</em></p>\n' + html[at:]
+    return html
 
 
 def href_for(listing: dict[str, Any]) -> tuple[str, bool]:
@@ -270,7 +294,7 @@ def render_listings(listings: list[dict[str, Any]]) -> str:
 
 def render_page(config: dict[str, Any], page: dict[str, Any]) -> str:
     updated = page["last_updated"]
-    body_html = render_markdown(page["body"])
+    body_html = mark_amazon_links(render_markdown(page["body"]), config)
     prose = f'      <div class="prose">\n{body_html}\n      </div>\n' if body_html else ""
     listings = render_listings(page.get("listings") or [])
     inner = (

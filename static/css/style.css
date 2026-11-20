@@ -247,3 +247,9 @@ footer.site .credit {
     padding-top: 1.75rem;
   }
 }
+
+.affiliate-note {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0.5rem 0;
+}

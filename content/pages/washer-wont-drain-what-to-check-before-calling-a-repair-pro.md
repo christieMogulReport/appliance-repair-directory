@@ -91,6 +91,15 @@ If the standpipe or floor drain is clogged, it's a plumbing problem, not a washe
 - **GE:** take the hose out of the standpipe and pour a quart of water into the standpipe. If it won't drain, GE recommends a plumber.
 - **LG:** take the hose out of the drain (hold it over a bucket or tub) and run a Spin Only cycle. If water pumps out normally, the washer is working, and your home drain may need to be cleared.
 
+## Parts and tools that commonly help with this
+
+These are links to Amazon search results, not specific products, so you pick the exact part. **Match any part to your washer's model number** (usually on a label near the door or on the back) and check it against your owner's manual. **Unplug the washer and shut off the water before any repair.** Buy a part only after the checks above point to it.
+
+- [Washer drain pump](https://www.amazon.com/s?k=washing+machine+drain+pump&tag=applianceh06-20): the most common part to replace when the pump is jammed or won't run. Search with your model number.
+- [Washer drain hose](https://www.amazon.com/s?k=washing+machine+drain+hose&tag=applianceh06-20): if your drain hose is kinked, cracked, or clogged for good.
+- [Long-reach grabber or pliers](https://www.amazon.com/s?k=long+reach+pick+up+tool+grabber&tag=applianceh06-20): for pulling out lint, coins, and socks around the pump filter in Step 4.
+- [Basic multimeter](https://www.amazon.com/s?k=digital+multimeter&tag=applianceh06-20): to test a pump or other part for power with a pro's guidance. Skip it if you are not comfortable working with electricity.
+
 ## When to stop and call a pro
 
 - **The tub is full and the washer just hums.** GE says this needs service.

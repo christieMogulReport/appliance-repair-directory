@@ -87,6 +87,15 @@ Several manufacturers say a fridge can seem warm when nothing is wrong.
 
 The free checks above cover settings, airflow, seals, and dirty coils. When they don't work, the cause is often a part that needs a technician. LG's support site lists a blocked evaporator or fan, frost buildup, a blocked drain line, and a faulty compressor among the causes of cooling problems ([LG](https://www.lg.com/in/support/product-support/troubleshoot/help-library/cs-CT52006627-20155295251040/)). Sears Home Services lists compressors, thermostats, and door seals as typical replacement parts. We can't tell you which one yours is from the outside, which is what the diagnostic visit is for.
 
+## Parts and tools that commonly help with this
+
+These are links to Amazon search results, not specific products, so you pick the exact part. **Match any part to your fridge's model number** (on the label inside the fridge) and check it against your owner's manual. **Unplug the fridge or switch off its breaker before any repair.** A part is only worth buying after the free checks above point to it.
+
+- [Condenser coil cleaning brush](https://www.amazon.com/s?k=refrigerator+condenser+coil+cleaning+brush&tag=applianceh06-20): for the coil cleaning in Step 3, together with a vacuum.
+- [Refrigerator and freezer thermometer](https://www.amazon.com/s?k=refrigerator+freezer+thermometer&tag=applianceh06-20): to check that the fridge is near 37°F and the freezer near 0°F, instead of guessing.
+- [Condenser fan motor](https://www.amazon.com/s?k=refrigerator+condenser+fan+motor&tag=applianceh06-20): if the fan behind the fridge or the one in the freezer is not turning. Search with your model number.
+- [Defrost thermostat or defrost timer](https://www.amazon.com/s?k=refrigerator+defrost+thermostat&tag=applianceh06-20): a defrost problem can let frost block the airflow. Search with your model number, and call a pro if you are not sure.
+
 ## When to stop and call a pro
 
 - **It is still warm after 24 to 28 hours** with correct settings, clear vents, and clean coils.

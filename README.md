@@ -20,6 +20,7 @@ Create `content/pages/<slug>.md` with front matter: `title`, `slug`, `descriptio
 - Only real, sourced information. Prices and costs only with a linked source. Verify every URL (drop 404s). Give safety steps first (unplug, shut off water).
 - No invented numbers or listings.
 - Before adding an affiliate link, make sure `affiliate_disclosure` in `config.yml` is accurate.
+- Every new page should include a "Parts and tools that commonly help with this" section (3-6 items, placed before "When to stop and call a pro") linking to Amazon SEARCH URLs, not ASINs: `https://www.amazon.com/s?k=<url-encoded query>&tag=applianceh06-20` (the tag is `amazon_tag` in `config.yml`). Include a "match the part to your model number" note and an "unplug / cut power first" note. `build.py` automatically adds `rel="sponsored nofollow noopener" target="_blank"` and the Amazon disclosure line above the first Amazon link on the page; the footer carries the disclosure site-wide. Build warns if an Amazon link lacks the tag.
 
 ## Deploy
 Pushing to `main` runs `.github/workflows/pages.yml`, which installs `requirements.txt`, runs `python build.py`, and deploys `dist/` to GitHub Pages (Pages build source: GitHub Actions). `static/CNAME` is copied into `dist/` and sets the custom domain `appliance.christiejustice.com`.
